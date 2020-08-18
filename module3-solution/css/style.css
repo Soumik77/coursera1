@@ -1,4 +1,4 @@
-@media (max-width:575px){
+@media (max-width:767px){
     .navbar-nav .nav-item .nav-link{
         text-align: center;
         color: black;
@@ -70,14 +70,14 @@
     }
    .container .row .box{
     
-    width:80%;
+    width:90%;
     padding:1rem;
     background-color:rgb(153, 153, 153);
     color:black;
     box-sizing: border-box;
     font-family: sans-serif;
     margin-top: 2rem;
-    margin-left:10%;
+    margin-left:1rem;
     box-sizing: border-box;
     text-align: center;
     }
@@ -94,14 +94,14 @@
 
     .container .row .box1{
     
-        width:80%;
+        width:90%;
         padding:1rem;
         background-color:rgb(153, 153, 153);
         color:black;
         box-sizing: border-box;
         font-family: sans-serif;
         margin-top: 2rem;
-        margin-left:10%;
+        margin-left:1rem;
         box-sizing: border-box;
         text-align: center;
         }
@@ -119,14 +119,14 @@
 
         .container .row .box2{
     
-            width:80%;
+            width:90%;
             padding:1rem;
             background-color:rgb(153, 153, 153);
             color:black;
             box-sizing: border-box;
             font-family: sans-serif;
             margin-top: 2rem;
-            margin-left:10%;
+            margin-left:1rem;
             box-sizing: border-box;
             text-align: center;
             }
@@ -147,7 +147,7 @@
 
 }
 
-@media (min-width:576px){
+@media (min-width:768px){
     .header_navbar .navbar{
         background: rgb(153, 153, 153);
         color:black;
