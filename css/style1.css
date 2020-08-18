@@ -1,0 +1,93 @@
+body{
+    font-size: 16px;
+    color:#fff;
+    background-color: #61122f;
+    
+}
+.container{
+    margin-left:8%;
+}
+#col-lg-3{
+    width:30%;
+}
+#header-nav{
+    background-color: #f6b319;
+    border-radius: 0;
+    border:0;
+    height:150px;
+    width:125%;
+    
+}
+#logo-img{
+    Background:url("./img/logo12.jpg") no-repeat;
+    width:120px;
+    height:120px;
+    margin: 10px 15px 10px 0;
+    margin-left:-20%;
+    margin-top:2%;
+    border-radius: 4rem;
+    border:2px solid yellowgreen; 
+    box-sizing: border-box;
+}
+.navbar-brand{
+    
+    margin-left:-15%;
+    margin-top:2%;
+    box-sizing: border-box;
+}
+
+.navbar-brand h1{
+    text-transform: uppercase;
+    font-weight:bold;
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+    margin-top:0;
+    margin-bottom: 0;
+    color:yellowgreen;
+}
+.navbar-brand p{
+    text-transform: uppercase;
+    color:#000;
+    font-weight: 500;
+    margin-top:0.5rem;
+}
+.navbar-brand a:hover {
+    text-decoration: none;
+}
+
+.navbar-collapse .navbar-nav{
+    margin-left:15rem;
+    margin-top:2rem;
+}
+
+.navbar-nav a{
+    text-align: center;
+    color:#61122f;
+    margin-right:1rem;
+    margin-top:-1.5rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.navbar-nav a:hover{
+    background-color: #61122f;
+    color: #f6b319;
+    display: padding-box;
+}
+.navbar-nav a .hlw1{
+    color: yellowgreen;
+    font-weight: lighter;
+    text-shadow: 1px 1px 1px black;
+    text-transform: none;
+    
+    
+}
+.nav-list{
+    margin-left:12%;
+    
+}
+.navlist .hello{
+     color:#61122f;
+     font-weight: lighter;
+}

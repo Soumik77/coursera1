@@ -1,0 +1,179 @@
+@media (min-width:768px) and (max-width:991px){
+  .col-mid-4{
+      width:33%;
+  }
+  .navbar-brand{
+      width:30%;
+      margin-left:10%;
+  }
+  .col-mid-4 .navbar-toggle{
+      width:30%;
+      float:center;
+      position: relative;
+      padding:9px 10px;
+      margin-top: 2rem;
+      border-radius: 4px;
+      border-color:transparent;
+      border:1px solid #61122f;
+      margin-left:20rem;
+      height:4rem;
+      color: #61122f;
+      background-color:transparent;
+      margin-right: 20%;;
+      
+  }
+ 
+
+  .navbar-toggle:focus{
+      outline: none;
+  }
+ 
+  .navbar-toggle .navbar-toggler-icon{
+      display: block;
+      width:22px;
+      height:2px;
+      border-radius:1px;
+  }
+  .navbar-toggle .navbar-toggler-icon + .navbar-toggler-icon{
+      margin-top:4px;
+      background-color: #61122f;
+      color: white;
+      
+      
+  }
+  .navbar-nav a{
+    text-align: center;
+    color: yellowgreen;
+    width:14rem;
+    margin-left:-7rem;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: white;
+    background-clip: padding-box;
+    padding-top:2rem;
+    height:10rem;
+    margin-top: 0.9rem;
+
+}
+.navbar-nav a:hover{
+    background-color: yellowgreen;
+    color:white;
+}
+
+  
+}
+
+
+
+@media (min-width:330px) and (max-width:767px)
+{
+    .col-sm-6{
+        width:33%;
+    }
+    #logo-img{
+        display: none;
+    }
+    .navbar-brand{
+        margin-left:-43%;
+        
+    }
+    .navbar-brand h1{
+        font-size: 25px;
+    }
+    .navbar-brand p{
+        font-size:20px;
+    }
+    .col-mid-4 .navbar-toggle{
+        width:3rem;
+        float:center;
+        position: relative;
+        padding:9px 10px;
+        
+        border-radius: 4px;
+        border-color:transparent;
+        border:1px solid #61122f;
+        margin-left:6rem;
+        height:3rem;
+        background-color:transparent;
+        margin-right: 25%;
+        margin-top:3.5rem;  
+    }
+    .navbar-toggle:focus{
+        outline: none;
+    }
+   
+    .navbar-toggle .navbar-toggler-icon{
+        display: block;
+        width:22px;
+        height:22px;
+        border-radius:1px;
+    }
+    .navbar-toggle .navbar-toggler-icon + .navbar-toggler-icon{
+        margin-top:4px;
+        background-color: #61122f;
+        color: white;  
+    }
+    .navbar-nav a{
+        text-align: center;
+        color: #61122f;
+        width:20rem;
+        margin-left:-26rem;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-transform: uppercase;
+        background-color: #f6b319;
+        background-clip: padding-box;
+        padding:1rem;
+        height:6.5rem;
+        cursor: pointer;
+        margin-top:0rem;
+        border:1px solid #61122f;
+    }
+
+    .navbar-nav a:hover{
+        background-color: yellowgreen;
+        color:white;
+    }
+    #collapsable-nav a{
+        font-size:1.8em;
+    }
+    
+
+}
+
+
+    
+
+
+
+
+
+
+
+
+
+@media (min-width:992px){
+    .img1{
+        display: none;
+    }
+    .navbar-toggle{
+        display: none;
+    }
+    #logo-img{
+        margin-top:8%;
+    }
+    .navbar-brand{
+        margin-top:1.5%;
+    }
+    .navbar-nav a{
+        margin-top:-2%;
+    }
+    .jumbotron{
+    background: url('../img/jumbotron1200.jpg') no-repeat;
+    height:675px;
+    box-shadow: 0 0 50px #3F0C1F;
+    border:2px solid #3F0C1F;
+    margin-left:10%;
+    }
+}

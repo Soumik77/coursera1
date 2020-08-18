@@ -1,0 +1,250 @@
+@media (max-width:575px){
+    .navbar-nav .nav-item .nav-link{
+        text-align: center;
+        color: black;
+        background-color: white;
+        overflow: hidden; 
+        width:125%;
+        margin-left:-10%;
+        border-bottom: 1px solid black;
+        font-size:20px;
+        font-weight: bold;
+        
+    }
+   
+     .navbar{
+        background: rgb(153, 153, 153);
+        color:black; 
+          
+    }
+    #navbarNav{
+        margin-bottom:-1.1rem;
+    }
+    .navbar-brand{
+        color:black;
+        font-size:35px;
+        font-weight: bold;
+    }
+    .navbar-toggler{
+        width:3.0rem;
+        float:center;
+        position: relative;
+        padding:9px 10px;
+        color:black;
+        border-radius: 4px;
+        background-color:transparent;
+        border:1px solid black;
+        margin-left:6rem;
+        height:3.0rem;
+    }
+    .navbar-toggler:focus{
+        outline: none;
+    }
+    
+  .navbar-toggler .navbar-toggler-icon {
+   
+    border-radius:1px;
+    width:30px;
+    height:3px;
+    margin-top: 6px;
+    background:black;
+    margin-left:-1.5px;
+    position: relative;
+    display: block;
+    }
+    .navbar-toggler .navbar-toggler-icon:hover{
+        background:white;
+    }
+    .navbar-toggler:hover{
+           border:1px solid white;
+           position:relative;
+           color:white;
+           
+    }
+
+
+    .container h3{
+        margin-top:2rem;
+        font-weight: bold;
+        font-size:30px;
+    }
+   .container .row .box{
+    
+    width:80%;
+    padding:1rem;
+    background-color:rgb(153, 153, 153);
+    color:black;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    margin-left:10%;
+    box-sizing: border-box;
+    text-align: center;
+    }
+    .container .row .box h3{
+        margin-top:0.9rem;
+        font-size:25px;
+    }
+    .container .row .box p{
+        margin-top:-1rem;
+        font-size:100%;
+        text-align: left;
+        padding:0.5rem;
+    }
+
+    .container .row .box1{
+    
+        width:80%;
+        padding:1rem;
+        background-color:rgb(153, 153, 153);
+        color:black;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin-top: 2rem;
+        margin-left:10%;
+        box-sizing: border-box;
+        text-align: center;
+        }
+        .container .row .box1 h3{
+            margin-top:0.9rem;
+            font-size:25px;
+        }
+        .container .row .box1 p{
+            margin-top:-1rem;
+            font-size:100%;
+            text-align: left;
+            padding:0.5rem;
+        }
+
+
+        .container .row .box2{
+    
+            width:80%;
+            padding:1rem;
+            background-color:rgb(153, 153, 153);
+            color:black;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            margin-top: 2rem;
+            margin-left:10%;
+            box-sizing: border-box;
+            text-align: center;
+            }
+            .container .row .box2 h3{
+                margin-top:0.9rem;
+                font-size:25px;
+            }
+            .container .row .box2 p{
+                margin-top:-1rem;
+                font-size:100%;
+                text-align: left;
+                padding:0.5rem;
+            }
+    
+ 
+
+   
+
+}
+
+@media (min-width:576px){
+    .header_navbar .navbar{
+        background: rgb(153, 153, 153);
+        color:black;
+    }
+    .navbar-nav .nav-item .nav-link{
+        display: none;
+    }
+    .navbar-brand{
+        color:black;
+        font-size:35px;
+        font-weight: bold;
+    }
+
+    .container h3{
+        margin-top:2rem;
+        font-weight: bold;
+        font-size:30px;
+    }
+   .container .row .box{
+    
+    width:80%;
+    padding:1rem;
+    background-color:rgb(153, 153, 153);
+    color:black;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin-top: 2rem;
+    box-sizing: border-box;
+    text-align: center;
+    
+    }
+    .container .row .box h3{
+        margin-top:0.9rem;
+        font-size:25px;
+    }
+    .container .row .box p{
+        margin-top:-1rem;
+        font-size:100%;
+        text-align: left;
+        padding:0.5rem;
+    }
+
+    .container .row .box1{
+    
+        width:80%;
+        padding:1rem;
+        background-color:rgb(153, 153, 153);
+        color:black;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        margin-top: 2rem;
+        box-sizing: border-box;
+        text-align: center;
+        
+        }
+        .container .row .box1 h3{
+            margin-top:0.9rem;
+            font-size:25px;
+        }
+        .container .row .box1 p{
+            margin-top:-1rem;
+            font-size:100%;
+            text-align: left;
+            padding:0.5rem;
+        }
+
+
+        .container .row .box2{
+    
+            width:80%;
+            padding:1rem;
+            background-color:rgb(153, 153, 153);
+            color:black;
+            box-sizing: border-box;
+            font-family: sans-serif;
+            margin-top: 2rem;
+            box-sizing: border-box;
+            text-align: center;
+        
+            }
+            .container .row .box2 h3{
+                margin-top:0.9rem;
+                font-size:25px;
+            }
+            .container .row .box2 p{
+                margin-top:-1rem;
+                font-size:100%;
+                text-align: left;
+                padding:0.5rem;
+            }
+    
+ 
+
+   
+   
+
+
+   
+}
+
